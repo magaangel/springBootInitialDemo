@@ -39,5 +39,10 @@ public class InitialController {
 
     }
 
+    @GetMapping("/saludos/{nombre}")
+    public String saludo(@PathVariable(name="nombre") String helloNom) {
+        return "Hello" + " " + helloNom;
+    }
+
 
 }

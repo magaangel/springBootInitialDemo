@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "b6599d45-3330-4036-99de-684760fd61d5",
+		"name": "FaseTres",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "requestConVariables",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{puerto}}/v1/test",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{puerto}}",
+					"path": [
+						"v1",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "segundaRequestConVariable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{puerto}}/v1/saludos/Gaby",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{puerto}}",
+					"path": [
+						"v1",
+						"saludos",
+						"Gaby"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "requestEntornoDesarrollo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{puerto}}/v1/test",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{puerto}}",
+					"path": [
+						"v1",
+						"test"
+					]
+				},
+				"description": "La IP dev.domain.com no existe, por lo cual no se podra ejecutar el request"
+			},
+			"response": []
+		},
+		{
+			"name": "requestEntornoPreproduccion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{puerto}}/v1/test",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{puerto}}",
+					"path": [
+						"v1",
+						"test"
+					]
+				},
+				"description": "La IP pre.domain.com no existe, por lo cual no se podrá ejecutar el request"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "c5805183-b2d0-474b-8391-40382abeb1cc",
+		"name": "FaseDos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getHelloNom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/saludos/Gaby",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"saludos",
+						"Gaby"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

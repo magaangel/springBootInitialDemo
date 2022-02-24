@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "5af7276b-bfb1-4748-9d19-4e8775bb8dce",
+		"name": "FaseUno",
+		"description": "Guardado de la petición del paso anterior",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mi_primer_request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/all",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
